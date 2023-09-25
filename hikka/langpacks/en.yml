@@ -1,7 +1,7 @@
 hikka_security:
     name: "HikkaSecurity"
     no_command: "🚫 <b>Command</b> <code>{}</code> <b>not found!</b>"
-    permissions: "🔐 <b>Here you can configure permissions for</b> <code>{}{}</code>"
+    permissions: "🔐 <b>Hhere you can configure permissions for</b> <code>{}{}</code>"
     close_menu: "🙈 Close this menu"
     global: "🔐 <b>Here you can configure global bounding mask. If the permission is excluded here, it is excluded everywhere!</b>"
     owner: "😎 Owner"
