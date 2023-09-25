@@ -424,7 +424,7 @@ api_protection:
 help:
     name: "Help"
     undoc: "🦥 No docs"
-    all_header: "<emoji document_id=5188377234380954537>🌘</emoji> <b>{} mods available, {} hidden:</b>"
+    all_header: "<emoji document_id=5188377234380954537>🌘</emoji> <b>{} mods, {} hidden:</b>"
     no_mod: "🚫 <b>Specify module to hide</b>"
     hidden_shown: "<emoji document_id=5188377234380954537>🌘</emoji> <b>{} modules hidden, {} modules shown:</b>\n{}\n{}"
     support: "{} <b>Link to</b> <a href='https://t.me/hikka_talks'>support chat</a></b>"
