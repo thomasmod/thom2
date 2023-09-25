@@ -1,7 +1,7 @@
 hikka_security:
     name: "HikkaSecurity"
     no_command: "🚫 <b>Command</b> <code>{}</code> <b>not found!</b>"
-    permissions: "🔐 <b>Hhere you can configure permissions for</b> <code>{}{}</code>"
+    permissions: "🔐 <b>Here you can configure permissions for</b> <code>{}{}</code>"
     close_menu: "🙈 Close this menu"
     global: "🔐 <b>Here you can configure global bounding mask. If the permission is excluded here, it is excluded everywhere!</b>"
     owner: "😎 Owner"
@@ -424,9 +424,9 @@ api_protection:
 help:
     name: "Help"
     undoc: "🦥 No docs"
-    all_header: "<emoji document_id=5188377234380954537>🌘</emoji> <b>{} mods, {} hidden:</b>"
+    all_header: "🤖 <b>{} mods, {} hidden:</b>"
     no_mod: "🚫 <b>Specify module to hide</b>"
-    hidden_shown: "<emoji document_id=5188377234380954537>🌘</emoji> <b>{} modules hidden, {} modules shown:</b>\n{}\n{}"
+    hidden_shown: "🤖 <b>{} modules hidden, {} modules shown:</b>\n{}\n{}"
     support: "{} <b>Link to</b> <a href='https://t.me/hikka_talks'>support chat</a></b>"
     partial_load: "<emoji document_id=5312383351217201533>☝️</emoji> <b>Userbot is not fully loaded, so not all modules are shown</b>"
     not_exact: "<emoji document_id=5312383351217201533>☝️</emoji> <b>No exact match occured, so the closest result is shown instead</b>"
