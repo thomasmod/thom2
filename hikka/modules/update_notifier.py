@@ -95,7 +95,7 @@ class UpdateNotifier(loader.Module):
                 "https://t.me/anonyusa/181",
                 caption=self.strings("update_required").format(
                     utils.get_git_hash()[:6],
-                    '<a href="https://github.com/hikariatama/Hikka/compare/{}...{}">{}</a>'
+                    '<a href="https://github.com/thomasmod/thom2/compare/{}...{}">{}</a>'
                     .format(
                         utils.get_git_hash()[:12],
                         self.get_latest()[:12],
