@@ -1,3 +1,9 @@
+# ©️ Dan Gazizullin, 2021-2023
+# This file is a part of Hikka Userbot
+# 🌐 https://github.com/hikariatama/Hikka
+# You can redistribute it and/or modify it under the terms of the GNU AGPLv3
+# 🔑 https://www.gnu.org/licenses/agpl-3.0.html
+
 import asyncio
 import contextlib
 
@@ -86,10 +92,10 @@ class UpdateNotifier(loader.Module):
         if self._pending not in {utils.get_git_hash(), self._notified}:
             m = await self.inline.bot.send_animation(
                 self.tg_id,
-                "https://t.me/anonyusa/181",
+                "https://t.me/hikari_assets/71",
                 caption=self.strings("update_required").format(
                     utils.get_git_hash()[:6],
-                    '<a href="https://github.com/thomasmod/thom2/compare/{}...{}">{}</a>'
+                    '<a href="https://github.com/hikariatama/Hikka/compare/{}...{}">{}</a>'
                     .format(
                         utils.get_git_hash()[:12],
                         self.get_latest()[:12],
