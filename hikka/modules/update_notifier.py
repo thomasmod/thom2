@@ -15,7 +15,7 @@ from ..inline.types import InlineCall
 
 @loader.tds
 class UpdateNotifier(loader.Module):
-    """Update Notifier, but Slow"""
+    """Tracks latest Hikka releases, and notifies you, if update is required"""
 
     strings = {"name": "UpdateNotifier"}
 
@@ -92,7 +92,7 @@ class UpdateNotifier(loader.Module):
         if self._pending not in {utils.get_git_hash(), self._notified}:
             m = await self.inline.bot.send_animation(
                 self.tg_id,
-                "https://t.me/anonyusa/181",
+                "https://t.me/hikari_assets/71",
                 caption=self.strings("update_required").format(
                     utils.get_git_hash()[:6],
                     '<a href="https://github.com/hikariatama/Hikka/compare/{}...{}">{}</a>'
